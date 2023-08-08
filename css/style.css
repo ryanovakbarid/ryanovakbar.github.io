@@ -1,0 +1,137 @@
+.navbar {
+    background-color: none;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron {
+    padding-top: 13em;
+    padding-bottom: 13em;
+    background-color: #e2edff;
+}
+
+.jumbotron-container {
+    padding: 50px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.jumbotron-profile-container {
+    border-radius: 20px;
+    position: relative;
+    background-color: #e2edff;
+    padding: 0 12px;
+}
+
+.jumbotron-profile-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.jumbotron-img {
+    position: relative;
+    width: 280px;
+}
+
+.jumbotron-img:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.cloud-rotate {
+    rotate: 180deg;
+}
+
+#education {
+    padding-top: 8rem;
+    background-color: #e2edff;
+}
+
+.education-universitas-img {
+    width: 340px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.education-universitas-img:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.education-ukm-img {
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.education-ukm-img:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+#skill {
+    padding-top: 8rem;
+    background-color: #e2edff;
+}
+
+#skill .container-sm {
+    width: 540pxs;
+}
+
+.skill-content {
+    text-align: justify;
+    width: 530px;
+    padding: 36px 20px 20px 28px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    border-radius: 12px;
+}
+
+.skill-content:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.skill-content ol {
+    list-style-type: decimal;
+}
+
+#project {
+    padding-top: 7rem;
+    background-color: #e2edff;
+}
+
+.card-body {
+    background-color: azure;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.last-margin {
+    margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 991px) {
+    .jumbotron-container {
+        flex-direction: column-reverse;
+        padding: 40px;
+    }
+
+    .jumbotron-profile-container {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .skill-content {
+        width: 334px;
+    }
+    .skill-content ol li {
+        font-size: 13.8px;
+        padding: 2px;
+    }
+}
